@@ -23,9 +23,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // Fonction de téléchargement
 function downloadGame() {
-    // Téléchargement direct du jeu KAYOUXXX depuis Google Drive
-    // Format alternatif pour éviter l'erreur 403
-    window.open('https://u.pcloud.link/publink/show?code=XZJRWM5ZFityj8Lppl0OCIrLThmEWzOF8wHy', '_blank');
+    // Téléchargement depuis Google Play (version test)
+    window.open('https://play.google.com/apps/test/RQRXjw9nWSc/ahAO29uNSjXdZqqQsO-SjF-9VyL2ci4fUJXmhSJ969Zprin-Po8_uLn-3IWhZemLbYvWI8Y3WpULmfzz5wKrqZhW4Q?fbclid=IwY2xjawODr4JleHRuA2FlbQIxMQBzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeehoBp97Nqi--eSNs6ARNKGVRT6QK6ggQszK5GwrbIZMO4z0ATpXPgq0e0mw_aem_-yQJklOmFeKoQ5IBkGn_WQ&brid=J5OIymCb8oMKImYPLf75kQ', '_blank');
 }
 
 // Animation des badges de sécurité
@@ -211,5 +210,4 @@ if (downloadButton) {
     downloadButton.addEventListener('click', () => {
         createConfetti();
     });
-
 }
