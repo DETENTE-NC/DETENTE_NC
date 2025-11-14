@@ -23,8 +23,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // Fonction de téléchargement
 function downloadGame() {
-    // Téléchargement depuis Google Play (version test)
-    window.open('https://play.google.com/apps/test/RQRXjw9nWSc/ahAO29uNSjXdZqqQsO-SjF-9VyL2ci4fUJXmhSJ969Zprin-Po8_uLn-3IWhZemLbYvWI8Y3WpULmfzz5wKrqZhW4Q?fbclid=IwY2xjawODr4JleHRuA2FlbQIxMQBzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeehoBp97Nqi--eSNs6ARNKGVRT6QK6ggQszK5GwrbIZMO4z0ATpXPgq0e0mw_aem_-yQJklOmFeKoQ5IBkGn_WQ&brid=J5OIymCb8oMKImYPLf75kQ', '_blank');
+    // Téléchargement depuis Google Play (test interne)
+    window.open('https://play.google.com/apps/internaltest/4701596648873095956?brid=rCoe4KFe7BgCpCW1XXU4CQ&fbclid=IwY2xjawODt7hleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAEwAAEeEX_kBEdAj_Y04MVw5RPZYoctbAE1DrYjr4zUMTTJFMpzTrpYwpUDF8zWyvU_aem_XGG1O5PfGmSTFEHOKT_Xwg', '_blank');
 }
 
 // Animation des badges de sécurité
@@ -117,9 +117,9 @@ if (downloadButton) {
 
 // Afficher un message de bienvenue
 window.addEventListener('load', () => {
-    console.log('🎮 Bienvenue sur Jeux et divers Nouvelle-Calédonie !');
+    console.log('🎮 Bienvenue sur Jeux, livres et divers Nouvelle-Calédonie !');
     console.log('🎰 Découvrez KAYOUXXX - Le meilleur jeu de bingo gratuit !');
-    console.log('🛡️ 100% sûr et sans virus');
+    console.log('🛡️ Version bêta - Accès anticipé');
 });
 
 // Créer des étoiles en arrière-plan
