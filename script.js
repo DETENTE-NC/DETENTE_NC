@@ -23,8 +23,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // Fonction de téléchargement
 function downloadGame() {
-    // Lien pour devenir testeur de BINGO NC
-    window.open('https://play.google.com/apps/testing/com.vivi.bingo', '_blank');
+    // Lien pour la nouvelle version test de BINGO NC
+    window.open('https://play.google.com/apps/test/RQRXjw9nWSc/ahAO29uNSCLQHMk9-VQzc8afi-YaeB64FLZreuq7vUh9PJb3WdnJyDDmfmPJLoFk0AoW4Fd5H7j8Dx2bwLR0rbwt0h', '_blank');
 }
 
 // Animation des badges de sécurité
@@ -118,7 +118,7 @@ if (downloadButton) {
 // Afficher un message de bienvenue
 window.addEventListener('load', () => {
     console.log('🎮 Bienvenue sur Jeux, livres et divers Nouvelle-Calédonie !');
-    console.log('🎰 Devenez testeur de BINGO NC !');
+    console.log('🎰 Devenez testeur de BINGO NC - Nouvelle version !');
     console.log('🛡️ Version bêta - Testeurs recherchés');
 });
 
